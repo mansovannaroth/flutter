@@ -1,18 +1,17 @@
-<?php
-$news1 = [
-	'id' => 1,
-    'image' => 'assets/covid19.jpg',
-    'titles' => 'កូវីដ១៩',
-    'views' => 'មើល 38k',
-    'dates' => '១សប្តាហ៍',
-];
-$news2 = [
-	'id' => 2,
-    'image' => 'assets/covid19.jpg',
-    'titles' => 'កូវីដ១៩',
-    'views' => 'មើល 38k',
-    'dates' => '១សប្តាហ៍',
-];
-$news = [$news1,$news2];
-echo json_encode($news);
-?>
+[
+	{
+		"id" : 1,
+    	"image" : "assets/covid19.jpg",
+	    "titles" :"កូវីដ១៩",
+	    "views" : "មើល 38k",
+	    "dates" : "១សប្តាហ៍",
+	}
+	,
+	{
+		"id" : 2,
+    	"image" : "assets/covid19.jpg",
+	    "titles" :"កូវីដ១៩",
+	    "views" : "មើល 38k",
+	    "dates" : "១សប្តាហ៍",
+	}
+]
